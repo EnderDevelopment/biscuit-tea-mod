@@ -1,0 +1,23 @@
+[[mods]]
+modId="enderdev"
+displayName="EnderDevelopment Mod"
+version="${version}"
+credits="Created using EnderDevelopment"
+authors="EnderDevelopment"
+description='''
+A mod that adds cookies, gingerbread, and tea as food items.
+'''
+
+[[dependencies.enderdev]]
+modId="forge"
+mandatory=true
+versionRange="[${loader_version},)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.enderdev]]
+modId="minecraft"
+mandatory=true
+versionRange="[${minecraft_version}]"
+ordering="NONE"
+side="BOTH"
